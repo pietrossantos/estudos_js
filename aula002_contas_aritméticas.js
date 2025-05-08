@@ -63,17 +63,29 @@ console.log()
 
 // INCREMENTO
 
-console.log(value2++);
-console.log(value2);
-console.log(value2+= 54);
+console.log(value2++); // PRIMEIRO IMPRIME O VALOR DEPOIS INCREMENTA
+console.log(value2); // IRÁ RETORNAR O VALOR COM O INCREMENTO
+console.log(++value2) // PRIMEIRO FAZ O INCREMENTO
+console.log(value2+= 53); // INCREMENTANDO COM UM NÚMERO DIFERENTE DE 1
 
 console.log()
 
 // DECREMENTO 
 
-console.log(value3--);
-console.log(value3);
-console.log(value3-= 23);
+console.log(value3--); // PRIMEIRO IMPRIME O VALOR DEPOIS DECREMENTA
+console.log(value3); // IRÁ RETORNAR O VALOR COM O DECREMENTO
+console.log(--value3) // PRIMEIRO FAZ O DECREMENTO
+console.log(value3-= 22); // DECREMENTANDO COM UM NÚMERO DIFERENTE DE 1
 
+// <<EXCESSÕES>> (-) (NEGAÇÃO OU INVERSÃO), (+) (CONCATENAÇÃO)
 
-// OBS: SE USAR CONST NO LUGAR DO LET NÃO SERÁ POSSIVEL FAZER INCREMENTO OU DECREMENTO!!!
+// INVERSÃO COM (-)
+
+console.log(-value5) // NEGA A VARIAVEL VALUE55 E VALUE2, INVERTENDO SEU SINAL
+console.log(-value2)
+
+// CONCATENAÇÃO COM (+)
+
+console.log(value2 + "" + value2) //COM A STRING NO MEIO ACABASSE CONCATENANDO OS DOIS VALORES
+
+// OBS: SE USAR CONST NO LUGAR DO LET NÃO SERÁ POSSIVEL FAZER INCREMENTO OU DECREMENTO PORQUE O VALOR NÃO PODE SER ALTERADO COM CONST!!!
