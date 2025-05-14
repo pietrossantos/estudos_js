@@ -33,6 +33,7 @@ for(n in num){ // SE EU QUISER PEGAR AS POSIÇÕES EU USO O FOR IN
 }
 
 // OUTRA SITUAÇÃO
+// NESSE CASO É NECESSÁRIO USAR UM NAVEGADOR POR CONTA DO NODE.JS NÃO RECONHECER O DOCUMENT.
 
 const objs = document.getElementsByTagName("div")
 let o = 0
