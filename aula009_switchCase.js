@@ -1,54 +1,53 @@
 let disciplina = "JavaScript";
 
-switch (disciplina){
-        case "Python":
-        console.log("você é um aluno Python"); 
-        break;
-        case "Power BI":
-        console.log("você é um aluno Power BI"); 
-        break;
-        case "HTML/CSS":
-        console.log("você é um aluno HTML/CSS"); 
-        break;
-        case "C#":
-        console.log("você é um aluno C#"); 
-        break;
-        case "JavaScript":
-        console.log("você é um aluno JavaScript"); 
-        break;
-        default:
-        console.log("você não é um aluno!");
-
+switch (disciplina) {
+  case "Python":
+    console.log("você é um aluno Python");
+    break;
+  case "Power BI":
+    console.log("você é um aluno Power BI");
+    break;
+  case "HTML/CSS":
+    console.log("você é um aluno HTML/CSS");
+    break;
+  case "C#":
+    console.log("você é um aluno C#");
+    break;
+  case "JavaScript":
+    console.log("você é um aluno JavaScript");
+    break;
+  default:
+    console.log("você não é um aluno!");
 }
 
-function obterDiaDaSemana (numeroDia){
-let nomeDia;
-switch (numeroDia){
+function obterDiaDaSemana(numeroDia) {
+  let nomeDia;
+  switch (numeroDia) {
     case 1:
-        nomeDia = "Domingo";
-        break;
+      nomeDia = "Domingo";
+      break;
     case 2:
-        nomeDia = "Segunda";
-        break;
+      nomeDia = "Segunda";
+      break;
     case 3:
-        nomeDia = "Terça";
-        break;
+      nomeDia = "Terça";
+      break;
     case 4:
-        nomeDia = "Quarta";
-        break;
+      nomeDia = "Quarta";
+      break;
     case 5:
-        nomeDia = "Quinta";
-        break;
-    case 6: 
-        nomeDia = "Sexta";
-        break;
+      nomeDia = "Quinta";
+      break;
+    case 6:
+      nomeDia = "Sexta";
+      break;
     case 7:
-        nomeDia = "Sábado";
-        break;
+      nomeDia = "Sábado";
+      break;
     default:
-        console.log("não é uma dia válido!");
-}
-return nomeDia;
+      console.log("não é uma dia válido!");
+  }
+  return nomeDia;
 }
 
 console.log(obterDiaDaSemana(3));

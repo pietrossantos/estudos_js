@@ -40,3 +40,23 @@ else {
 }
 
 // PODEMOS USAR OPERADORES LÓGICOS E OPERADORES RELACIONAIS PARA FAZER AS CONDIÇÕES, PODE-SE FAZER CONTAS ARITMÉTICAS
+
+let pessoa = "PI" 
+console.log(pessoa)
+  if(pessoa === "PI"){
+    pessoa = pessoa + "E"
+    console.log(pessoa)
+  
+  if(pessoa === "PIE")
+    pessoa = pessoa + "T"
+    console.log(pessoa)
+  
+  if(pessoa === "PIET")
+    pessoa = pessoa + "R"
+    console.log(pessoa)
+  
+  if(pessoa === "PIETR")
+    pessoa = pessoa + "O"
+    console.log(pessoa)
+  
+}
